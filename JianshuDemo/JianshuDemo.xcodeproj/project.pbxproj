@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A90D7BAB1F544D5B0061FDDE /* GestureTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D7BAA1F544D5B0061FDDE /* GestureTableView.swift */; };
+		A925A8B61F525DB4006F1045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A925A8B51F525DB4006F1045 /* AppDelegate.swift */; };
+		A925A8B81F525DB4006F1045 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A925A8B71F525DB4006F1045 /* ViewController.swift */; };
+		A925A8BB1F525DB4006F1045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A925A8B91F525DB4006F1045 /* Main.storyboard */; };
+		A925A8BD1F525DB4006F1045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A925A8BC1F525DB4006F1045 /* Assets.xcassets */; };
+		A925A8C01F525DB4006F1045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A925A8BE1F525DB4006F1045 /* LaunchScreen.storyboard */; };
+		A925A8CB1F525DB4006F1045 /* JianshuDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A925A8CA1F525DB4006F1045 /* JianshuDemoTests.swift */; };
+		A925A8D61F525DB4006F1045 /* JianshuDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A925A8D51F525DB4006F1045 /* JianshuDemoUITests.swift */; };
+		A925A8E41F525E8E006F1045 /* MineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A925A8E31F525E8E006F1045 /* MineVC.swift */; };
+		A925A8F81F525FB7006F1045 /* UIView+ZJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A925A8E81F525FB7006F1045 /* UIView+ZJFrame.m */; };
+		A925A8F91F525FB7006F1045 /* UIViewController+ZJScrollPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = A925A8EA1F525FB7006F1045 /* UIViewController+ZJScrollPageController.m */; };
+		A925A8FA1F525FB7006F1045 /* ZJCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A925A8EC1F525FB7006F1045 /* ZJCollectionView.m */; };
+		A925A8FB1F525FB7006F1045 /* ZJContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A925A8EE1F525FB7006F1045 /* ZJContentView.m */; };
+		A925A8FC1F525FB7006F1045 /* ZJScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A925A8F01F525FB7006F1045 /* ZJScrollPageView.m */; };
+		A925A8FD1F525FB7006F1045 /* ZJScrollSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A925A8F31F525FB7006F1045 /* ZJScrollSegmentView.m */; };
+		A925A8FE1F525FB7006F1045 /* ZJSegmentStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = A925A8F51F525FB7006F1045 /* ZJSegmentStyle.m */; };
+		A925A8FF1F525FB7006F1045 /* ZJTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A925A8F71F525FB7006F1045 /* ZJTitleView.m */; };
+		A925A9041F52761B006F1045 /* OneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A925A9031F52761B006F1045 /* OneCell.swift */; };
+		A925A9061F52763D006F1045 /* OneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A925A9051F52763D006F1045 /* OneCell.xib */; };
+		A925A9081F527BE8006F1045 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A925A9071F527BE8006F1045 /* Utils.swift */; };
+		A925A90A1F529405006F1045 /* TwoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A925A9091F529405006F1045 /* TwoCell.swift */; };
+		A925A9101F529F28006F1045 /* ContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A925A90F1F529F28006F1045 /* ContentVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A925A8C71F525DB4006F1045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A925A8AA1F525DB4006F1045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A925A8B11F525DB4006F1045;
+			remoteInfo = JianshuDemo;
+		};
+		A925A8D21F525DB4006F1045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A925A8AA1F525DB4006F1045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A925A8B11F525DB4006F1045;
+			remoteInfo = JianshuDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A90D7BAA1F544D5B0061FDDE /* GestureTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureTableView.swift; sourceTree = "<group>"; };
+		A925A8B21F525DB4006F1045 /* JianshuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JianshuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A925A8B51F525DB4006F1045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A925A8B71F525DB4006F1045 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A925A8BA1F525DB4006F1045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A925A8BC1F525DB4006F1045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A925A8BF1F525DB4006F1045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A925A8C11F525DB4006F1045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A925A8C61F525DB4006F1045 /* JianshuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JianshuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A925A8CA1F525DB4006F1045 /* JianshuDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JianshuDemoTests.swift; sourceTree = "<group>"; };
+		A925A8CC1F525DB4006F1045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A925A8D11F525DB4006F1045 /* JianshuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JianshuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A925A8D51F525DB4006F1045 /* JianshuDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JianshuDemoUITests.swift; sourceTree = "<group>"; };
+		A925A8D71F525DB4006F1045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A925A8E31F525E8E006F1045 /* MineVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineVC.swift; sourceTree = "<group>"; };
+		A925A8E71F525FB7006F1045 /* UIView+ZJFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZJFrame.h"; sourceTree = "<group>"; };
+		A925A8E81F525FB7006F1045 /* UIView+ZJFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZJFrame.m"; sourceTree = "<group>"; };
+		A925A8E91F525FB7006F1045 /* UIViewController+ZJScrollPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZJScrollPageController.h"; sourceTree = "<group>"; };
+		A925A8EA1F525FB7006F1045 /* UIViewController+ZJScrollPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZJScrollPageController.m"; sourceTree = "<group>"; };
+		A925A8EB1F525FB7006F1045 /* ZJCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCollectionView.h; sourceTree = "<group>"; };
+		A925A8EC1F525FB7006F1045 /* ZJCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCollectionView.m; sourceTree = "<group>"; };
+		A925A8ED1F525FB7006F1045 /* ZJContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJContentView.h; sourceTree = "<group>"; };
+		A925A8EE1F525FB7006F1045 /* ZJContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJContentView.m; sourceTree = "<group>"; };
+		A925A8EF1F525FB7006F1045 /* ZJScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollPageView.h; sourceTree = "<group>"; };
+		A925A8F01F525FB7006F1045 /* ZJScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJScrollPageView.m; sourceTree = "<group>"; };
+		A925A8F11F525FB7006F1045 /* ZJScrollPageViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollPageViewDelegate.h; sourceTree = "<group>"; };
+		A925A8F21F525FB7006F1045 /* ZJScrollSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollSegmentView.h; sourceTree = "<group>"; };
+		A925A8F31F525FB7006F1045 /* ZJScrollSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJScrollSegmentView.m; sourceTree = "<group>"; };
+		A925A8F41F525FB7006F1045 /* ZJSegmentStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSegmentStyle.h; sourceTree = "<group>"; };
+		A925A8F51F525FB7006F1045 /* ZJSegmentStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSegmentStyle.m; sourceTree = "<group>"; };
+		A925A8F61F525FB7006F1045 /* ZJTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTitleView.h; sourceTree = "<group>"; };
+		A925A8F71F525FB7006F1045 /* ZJTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTitleView.m; sourceTree = "<group>"; };
+		A925A9031F52761B006F1045 /* OneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneCell.swift; sourceTree = "<group>"; };
+		A925A9051F52763D006F1045 /* OneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneCell.xib; sourceTree = "<group>"; };
+		A925A9071F527BE8006F1045 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		A925A9091F529405006F1045 /* TwoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoCell.swift; sourceTree = "<group>"; };
+		A925A90E1F529700006F1045 /* Jianshu-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Jianshu-Header.h"; sourceTree = "<group>"; };
+		A925A90F1F529F28006F1045 /* ContentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentVC.swift; path = ../ContentVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A925A8AF1F525DB4006F1045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A925A8C31F525DB4006F1045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A925A8CE1F525DB4006F1045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A925A8A91F525DB4006F1045 = {
+			isa = PBXGroup;
+			children = (
+				A925A8E51F525FB7006F1045 /* lib */,
+				A925A8B41F525DB4006F1045 /* JianshuDemo */,
+				A925A8C91F525DB4006F1045 /* JianshuDemoTests */,
+				A925A8D41F525DB4006F1045 /* JianshuDemoUITests */,
+				A925A8B31F525DB4006F1045 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A925A8B31F525DB4006F1045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A925A8B21F525DB4006F1045 /* JianshuDemo.app */,
+				A925A8C61F525DB4006F1045 /* JianshuDemoTests.xctest */,
+				A925A8D11F525DB4006F1045 /* JianshuDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A925A8B41F525DB4006F1045 /* JianshuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A925A9021F52760E006F1045 /* view */,
+				A925A8B51F525DB4006F1045 /* AppDelegate.swift */,
+				A925A8B71F525DB4006F1045 /* ViewController.swift */,
+				A925A8E31F525E8E006F1045 /* MineVC.swift */,
+				A90D7BAA1F544D5B0061FDDE /* GestureTableView.swift */,
+				A925A9071F527BE8006F1045 /* Utils.swift */,
+				A925A8B91F525DB4006F1045 /* Main.storyboard */,
+				A925A8BC1F525DB4006F1045 /* Assets.xcassets */,
+				A925A8BE1F525DB4006F1045 /* LaunchScreen.storyboard */,
+				A925A8C11F525DB4006F1045 /* Info.plist */,
+				A925A90E1F529700006F1045 /* Jianshu-Header.h */,
+			);
+			path = JianshuDemo;
+			sourceTree = "<group>";
+		};
+		A925A8C91F525DB4006F1045 /* JianshuDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A925A8CA1F525DB4006F1045 /* JianshuDemoTests.swift */,
+				A925A8CC1F525DB4006F1045 /* Info.plist */,
+			);
+			path = JianshuDemoTests;
+			sourceTree = "<group>";
+		};
+		A925A8D41F525DB4006F1045 /* JianshuDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A925A8D51F525DB4006F1045 /* JianshuDemoUITests.swift */,
+				A925A8D71F525DB4006F1045 /* Info.plist */,
+			);
+			path = JianshuDemoUITests;
+			sourceTree = "<group>";
+		};
+		A925A8E51F525FB7006F1045 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A925A8E61F525FB7006F1045 /* ZJScrollPageView */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		A925A8E61F525FB7006F1045 /* ZJScrollPageView */ = {
+			isa = PBXGroup;
+			children = (
+				A925A8E71F525FB7006F1045 /* UIView+ZJFrame.h */,
+				A925A8E81F525FB7006F1045 /* UIView+ZJFrame.m */,
+				A925A8E91F525FB7006F1045 /* UIViewController+ZJScrollPageController.h */,
+				A925A8EA1F525FB7006F1045 /* UIViewController+ZJScrollPageController.m */,
+				A925A8EB1F525FB7006F1045 /* ZJCollectionView.h */,
+				A925A8EC1F525FB7006F1045 /* ZJCollectionView.m */,
+				A925A8ED1F525FB7006F1045 /* ZJContentView.h */,
+				A925A8EE1F525FB7006F1045 /* ZJContentView.m */,
+				A925A8EF1F525FB7006F1045 /* ZJScrollPageView.h */,
+				A925A8F01F525FB7006F1045 /* ZJScrollPageView.m */,
+				A925A8F11F525FB7006F1045 /* ZJScrollPageViewDelegate.h */,
+				A925A8F21F525FB7006F1045 /* ZJScrollSegmentView.h */,
+				A925A8F31F525FB7006F1045 /* ZJScrollSegmentView.m */,
+				A925A8F41F525FB7006F1045 /* ZJSegmentStyle.h */,
+				A925A8F51F525FB7006F1045 /* ZJSegmentStyle.m */,
+				A925A8F61F525FB7006F1045 /* ZJTitleView.h */,
+				A925A8F71F525FB7006F1045 /* ZJTitleView.m */,
+			);
+			path = ZJScrollPageView;
+			sourceTree = "<group>";
+		};
+		A925A9021F52760E006F1045 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A925A9031F52761B006F1045 /* OneCell.swift */,
+				A925A9051F52763D006F1045 /* OneCell.xib */,
+				A925A9091F529405006F1045 /* TwoCell.swift */,
+				A925A90F1F529F28006F1045 /* ContentVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A925A8B11F525DB4006F1045 /* JianshuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A925A8DA1F525DB4006F1045 /* Build configuration list for PBXNativeTarget "JianshuDemo" */;
+			buildPhases = (
+				A925A8AE1F525DB4006F1045 /* Sources */,
+				A925A8AF1F525DB4006F1045 /* Frameworks */,
+				A925A8B01F525DB4006F1045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JianshuDemo;
+			productName = JianshuDemo;
+			productReference = A925A8B21F525DB4006F1045 /* JianshuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A925A8C51F525DB4006F1045 /* JianshuDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A925A8DD1F525DB4006F1045 /* Build configuration list for PBXNativeTarget "JianshuDemoTests" */;
+			buildPhases = (
+				A925A8C21F525DB4006F1045 /* Sources */,
+				A925A8C31F525DB4006F1045 /* Frameworks */,
+				A925A8C41F525DB4006F1045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A925A8C81F525DB4006F1045 /* PBXTargetDependency */,
+			);
+			name = JianshuDemoTests;
+			productName = JianshuDemoTests;
+			productReference = A925A8C61F525DB4006F1045 /* JianshuDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A925A8D01F525DB4006F1045 /* JianshuDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A925A8E01F525DB4006F1045 /* Build configuration list for PBXNativeTarget "JianshuDemoUITests" */;
+			buildPhases = (
+				A925A8CD1F525DB4006F1045 /* Sources */,
+				A925A8CE1F525DB4006F1045 /* Frameworks */,
+				A925A8CF1F525DB4006F1045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A925A8D31F525DB4006F1045 /* PBXTargetDependency */,
+			);
+			name = JianshuDemoUITests;
+			productName = JianshuDemoUITests;
+			productReference = A925A8D11F525DB4006F1045 /* JianshuDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A925A8AA1F525DB4006F1045 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = cn.jy;
+				TargetAttributes = {
+					A925A8B11F525DB4006F1045 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J5WUR2LF7P;
+						ProvisioningStyle = Automatic;
+					};
+					A925A8C51F525DB4006F1045 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J5WUR2LF7P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A925A8B11F525DB4006F1045;
+					};
+					A925A8D01F525DB4006F1045 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J5WUR2LF7P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A925A8B11F525DB4006F1045;
+					};
+				};
+			};
+			buildConfigurationList = A925A8AD1F525DB4006F1045 /* Build configuration list for PBXProject "JianshuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A925A8A91F525DB4006F1045;
+			productRefGroup = A925A8B31F525DB4006F1045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A925A8B11F525DB4006F1045 /* JianshuDemo */,
+				A925A8C51F525DB4006F1045 /* JianshuDemoTests */,
+				A925A8D01F525DB4006F1045 /* JianshuDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A925A8B01F525DB4006F1045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A925A8C01F525DB4006F1045 /* LaunchScreen.storyboard in Resources */,
+				A925A8BD1F525DB4006F1045 /* Assets.xcassets in Resources */,
+				A925A9061F52763D006F1045 /* OneCell.xib in Resources */,
+				A925A8BB1F525DB4006F1045 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A925A8C41F525DB4006F1045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A925A8CF1F525DB4006F1045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A925A8AE1F525DB4006F1045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A925A8FD1F525FB7006F1045 /* ZJScrollSegmentView.m in Sources */,
+				A925A8FC1F525FB7006F1045 /* ZJScrollPageView.m in Sources */,
+				A925A9101F529F28006F1045 /* ContentVC.swift in Sources */,
+				A90D7BAB1F544D5B0061FDDE /* GestureTableView.swift in Sources */,
+				A925A8B81F525DB4006F1045 /* ViewController.swift in Sources */,
+				A925A8FB1F525FB7006F1045 /* ZJContentView.m in Sources */,
+				A925A8F91F525FB7006F1045 /* UIViewController+ZJScrollPageController.m in Sources */,
+				A925A9081F527BE8006F1045 /* Utils.swift in Sources */,
+				A925A8FA1F525FB7006F1045 /* ZJCollectionView.m in Sources */,
+				A925A9041F52761B006F1045 /* OneCell.swift in Sources */,
+				A925A8E41F525E8E006F1045 /* MineVC.swift in Sources */,
+				A925A8F81F525FB7006F1045 /* UIView+ZJFrame.m in Sources */,
+				A925A8FF1F525FB7006F1045 /* ZJTitleView.m in Sources */,
+				A925A8B61F525DB4006F1045 /* AppDelegate.swift in Sources */,
+				A925A90A1F529405006F1045 /* TwoCell.swift in Sources */,
+				A925A8FE1F525FB7006F1045 /* ZJSegmentStyle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A925A8C21F525DB4006F1045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A925A8CB1F525DB4006F1045 /* JianshuDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A925A8CD1F525DB4006F1045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A925A8D61F525DB4006F1045 /* JianshuDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A925A8C81F525DB4006F1045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A925A8B11F525DB4006F1045 /* JianshuDemo */;
+			targetProxy = A925A8C71F525DB4006F1045 /* PBXContainerItemProxy */;
+		};
+		A925A8D31F525DB4006F1045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A925A8B11F525DB4006F1045 /* JianshuDemo */;
+			targetProxy = A925A8D21F525DB4006F1045 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A925A8B91F525DB4006F1045 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A925A8BA1F525DB4006F1045 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A925A8BE1F525DB4006F1045 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A925A8BF1F525DB4006F1045 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A925A8D81F525DB4006F1045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A925A8D91F525DB4006F1045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A925A8DB1F525DB4006F1045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J5WUR2LF7P;
+				INFOPLIST_FILE = JianshuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhu.JianshuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_DISABLE_SAFETY_CHECKS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/JianshuDemo/Jianshu-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A925A8DC1F525DB4006F1045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J5WUR2LF7P;
+				INFOPLIST_FILE = JianshuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhu.JianshuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_DISABLE_SAFETY_CHECKS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/JianshuDemo/Jianshu-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A925A8DE1F525DB4006F1045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J5WUR2LF7P;
+				INFOPLIST_FILE = JianshuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhu.JianshuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JianshuDemo.app/JianshuDemo";
+			};
+			name = Debug;
+		};
+		A925A8DF1F525DB4006F1045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J5WUR2LF7P;
+				INFOPLIST_FILE = JianshuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhu.JianshuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JianshuDemo.app/JianshuDemo";
+			};
+			name = Release;
+		};
+		A925A8E11F525DB4006F1045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J5WUR2LF7P;
+				INFOPLIST_FILE = JianshuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhu.JianshuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JianshuDemo;
+			};
+			name = Debug;
+		};
+		A925A8E21F525DB4006F1045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J5WUR2LF7P;
+				INFOPLIST_FILE = JianshuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhu.JianshuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JianshuDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A925A8AD1F525DB4006F1045 /* Build configuration list for PBXProject "JianshuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A925A8D81F525DB4006F1045 /* Debug */,
+				A925A8D91F525DB4006F1045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A925A8DA1F525DB4006F1045 /* Build configuration list for PBXNativeTarget "JianshuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A925A8DB1F525DB4006F1045 /* Debug */,
+				A925A8DC1F525DB4006F1045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A925A8DD1F525DB4006F1045 /* Build configuration list for PBXNativeTarget "JianshuDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A925A8DE1F525DB4006F1045 /* Debug */,
+				A925A8DF1F525DB4006F1045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A925A8E01F525DB4006F1045 /* Build configuration list for PBXNativeTarget "JianshuDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A925A8E11F525DB4006F1045 /* Debug */,
+				A925A8E21F525DB4006F1045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A925A8AA1F525DB4006F1045 /* Project object */;
+}

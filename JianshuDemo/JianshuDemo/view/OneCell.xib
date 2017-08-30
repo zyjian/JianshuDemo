@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OneCell" rowHeight="228" id="Te1-1N-V1f" customClass="OneCell" customModule="JianshuDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="228"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Te1-1N-V1f" id="PEC-bk-HY4">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="227.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CC老师_MissCC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2g-DO-feY">
+                        <rect key="frame" x="114.5" y="48" width="147.5" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="全力以赴是一种态度。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XCQ-oI-Gyb">
+                        <rect key="frame" x="111.5" y="106" width="153" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="写了414565字，获得144个喜欢" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGX-kq-Net">
+                        <rect key="frame" x="80" y="135" width="217" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon1" translatesAutoresizingMaskIntoConstraints="NO" id="Las-HO-x0w">
+                        <rect key="frame" x="173.5" y="73" width="28" height="33"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="l4Z-NQ-OwY">
+                        <rect key="frame" x="111" y="171" width="154" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="i26-a0-su6"/>
+                            <constraint firstAttribute="width" constant="154" id="tz6-du-Xk5"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="P2g-DO-feY" firstAttribute="centerX" secondItem="PEC-bk-HY4" secondAttribute="centerX" id="1ec-HH-6zw"/>
+                    <constraint firstItem="XCQ-oI-Gyb" firstAttribute="top" secondItem="Las-HO-x0w" secondAttribute="bottom" id="3I2-Jw-syM"/>
+                    <constraint firstItem="Las-HO-x0w" firstAttribute="centerX" secondItem="P2g-DO-feY" secondAttribute="centerX" id="B40-br-hRU"/>
+                    <constraint firstItem="l4Z-NQ-OwY" firstAttribute="centerX" secondItem="TGX-kq-Net" secondAttribute="centerX" id="Lyl-IW-Bni"/>
+                    <constraint firstItem="XCQ-oI-Gyb" firstAttribute="centerX" secondItem="Las-HO-x0w" secondAttribute="centerX" id="MAp-PG-oWs"/>
+                    <constraint firstItem="Las-HO-x0w" firstAttribute="top" secondItem="P2g-DO-feY" secondAttribute="bottom" constant="1" id="RbZ-bb-noT"/>
+                    <constraint firstItem="TGX-kq-Net" firstAttribute="centerX" secondItem="XCQ-oI-Gyb" secondAttribute="centerX" id="TvQ-X0-mC4"/>
+                    <constraint firstItem="P2g-DO-feY" firstAttribute="top" secondItem="PEC-bk-HY4" secondAttribute="topMargin" constant="40" id="V1z-Vt-lb3"/>
+                    <constraint firstItem="l4Z-NQ-OwY" firstAttribute="top" secondItem="TGX-kq-Net" secondAttribute="bottom" constant="18" id="VLS-TR-leE"/>
+                    <constraint firstItem="TGX-kq-Net" firstAttribute="top" secondItem="XCQ-oI-Gyb" secondAttribute="bottom" constant="11" id="ZUm-zO-4Tf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="26.5" y="8"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon" width="259" height="49"/>
+        <image name="icon1" width="28" height="33"/>
+    </resources>
+</document>
